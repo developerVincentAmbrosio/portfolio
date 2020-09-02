@@ -3,7 +3,8 @@
 }
 
 h1, h2, h3, p, a, ul, li {
-  margin-left: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
   font-family: 'Lucida Sans', Verdana, sans-serif;
   color: #000;
   } 
@@ -19,7 +20,7 @@ h2 {
   }
   
 h3 {
-  padding-top: 50px;
+  padding-top: 25px;
   font-size: 24px;
   text-align: left;
   }
@@ -27,8 +28,9 @@ h3 {
 p, ul, li {
   font-size: 18px;
   text-align: left;
-  line-height: 38px;
-  padding-right: 50px;
+  line-height: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
   }
 
 a:link    {color: #FFF;}
@@ -37,9 +39,9 @@ a:hover   {color: green;}
 a:active  {color: orange;}
 
 section, article {
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
   }
 
 section, article p {
