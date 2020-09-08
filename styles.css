@@ -90,6 +90,7 @@ body img {
   display: flex;
   flex-direction: column;
   margin-bottom: 50px;
+  list-style: none;
   }
 
 .item {
