@@ -2,9 +2,9 @@
   box-sizing: border-box;
 }
 
-h1, h2, h3, p, a, ul, li {
-  margin-left: 25px;
-  margin-right: 25px;
+h1, h2, h3, p, form, a, ul, li {
+  margin-left: 5px;
+  margin-right: 5px;
   font-family: 'Lucida Sans', Verdana, sans-serif;
   color: #000;
   } 
@@ -25,7 +25,7 @@ h3 {
   text-align: left;
   }
   
-p, ul, li {
+p, ul, li, form {
   font-size: 14px;
   text-align: left;
   line-height: 26px;
@@ -33,10 +33,21 @@ p, ul, li {
   padding-right: 5px;
   }
 
-a:link    {color: #FFF;}
+/*a:link    {color: #FFF;}*/
 a:visited {color: #66CCFF;}    
 a:hover   {color: green;}
 a:active  {color: orange;}
+
+nav {
+  flex: 4;
+  text-align: center;
+  color: #FFF;
+  background-color: #000;
+  }
+  
+nav a {
+  color: #FFF;
+  }
 
 section, article {
   margin-left: 5px;
@@ -48,9 +59,22 @@ section, article p {
   text-indent: 25px;
   }
   
-footer p {
+/*footer p {
   text-align: center;
+  }*/
+  
+form {
+  padding-bottom: 5px;
   }
+  
+form input[type=text] {
+  font-size: 14px;
+  padding-bottom: 5px;
+  }  
+
+label {
+  display: block;
+  }  
 
 body img {
   width: 100%;
@@ -100,6 +124,11 @@ body img {
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 25px;
-  }    
+  }
+
+  form input[type=text] {
+  font-size: 18px;
+  padding-bottom: 25px;
+  }        
 
 }
