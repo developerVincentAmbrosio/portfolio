@@ -76,6 +76,11 @@ label {
   display: block;
   }  
 
+textarea {
+  min-width: 480px;
+  max-width: 800px;
+}
+
 body img {
   width: 100%;
   }
