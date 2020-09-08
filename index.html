@@ -9,41 +9,32 @@
   
   <body>
       <header>
-        <nav class="kBackground">
+      <h1>Vincent Ambrosio</h1>
+        <nav>
           <div class="group">
-            <div class="item">
-              <a href="#intro">Introduction</a>
-            </div>
-            <div class="item">
-              <a href="#projects">Projects</a>
-            </div>
-            <div class="item">
-              <a href="#about">About Me</a>
-            </div>
-            <div class="item">  
-              <a href="#contact">Contact Me</a>
-            </div>
+            <div class="item"><a href="#intro">Introduction</a></div>
+            <div class="item"><a href="#projects">Projects</a></div>
+            <div class="item"><a href="#about">About Me</a></div>
+            <div class="item"><a href="#contact">Contact Me</a></div>
           </div>    
         </nav> 
       </header>
 
     <article>
-      <h1>Vincent Ambrosio</h1>
-      <h2>Web Developer</h2>
-        <div class="group">
-          <div class="item">
-            <img src="images/vincent-ambrosio.gif" alt="portrait of Vincent Ambrosio">
-          </div>  
-          <div class="itemDouble">
-            <h3 id="intro">Introduction</h3>
-            <p>I am a seasoned production professional, transitioning to web development. I live in Montgomery county, PA with my lovely wife and children. Most of my career has been in the print production and variable data world. This gives me a keen eye for spotting typoes, logical issues, and a strong grasp of the Adobe Creative Suite.</p>  
-            <p>Here is a breif list of services I offer:</p>
-              <ul>
-                <li>web design & maintainence</li>
-                <li>animation</li>
-                <li>feature creation</li>
-                <li>image creation and manipulation</li>
-              </ul>
+      <div class="group">
+        <div class="item">
+          <img src="images/vincent-ambrosio.gif" alt="portrait of Vincent Ambrosio">
+        </div>  
+        <div class="itemDouble">
+          <h3 id="intro">Introduction</h3>
+          <p>I am a seasoned production professional, transitioning to web development. I live in Montgomery county, PA with my lovely wife and children. Most of my career has been in the print production and variable data world. This gives me a keen eye for spotting typoes, logical issues, and a strong grasp of the Adobe Creative Suite.</p>  
+          <p>Here is a breif list of services I offer:</p>
+            <ul>
+              <li>web design & maintainence</li>
+              <li>animation</li>
+              <li>feature creation</li>
+              <li>image creation and manipulation</li>
+            </ul>
           </div>
         </div>                        
     </article>
@@ -83,21 +74,34 @@
     <section>
     <h3 id="contact">Contact</h3>
     <p>Please reach out and let me know how I can help you or your organization:</p>
-      <div class="group kBackground">
-        <div class="item">  
-          <a href="mailto:vince.ambrosio@gmail.com">email</a>
-        </div>
+      <div class="group">
         <div class="item">
-          <a href="https://github.com/developerVincentAmbrosio">GitHub</a>
+          <form action="https://formspree.io/vince.ambrosio@gmail.com" method="post">
+            <label for="user-first-name">First name:</label>
+            <input id="user-first-name" type="text" name="first-name" required autofocus="on">
+            <label for="user-last-name">Last name:</label>
+            <input id="user-last-name" type="text" name="last-name" required>
+            <label for="form-message">Message:</label>
+            <textarea id="form-message" name="message" maxlength="500" required></textarea>
+          </form>
         </div>
-        <div class="item">  
-          <a href="https://www.linkedin.com/in/vince-ambrosio-6093458/">LinkedIn</a>
+        <div class="item screenedBackground">
+          <p><a href="mailto:vince.ambrosio@gmail.com">email</a></p>
+          <p><a href="https://github.com/developerVincentAmbrosio">GitHub</a></p>
+          <p><a href="https://www.linkedin.com/in/vince-ambrosio-6093458/">LinkedIn</a></p>
         </div>
-      </div>  
+      </div> <!--group--> 
     </section>
-        
+    <!--  <p>Please reach out and let me know how I can help.</p> -->        
     <footer>
-      <p>Please reach out and let me know how I can help.</p>
+      <nav>
+        <div class="group">
+          <div class="item"><a href="#intro">Introduction</a></div>
+          <div class="item"><a href="#projects">Projects</a></div>
+          <div class="item"><a href="#about">About Me</a></div>
+          <div class="item"><a href="#contact">Contact Me</a></div>
+        </div>    
+      </nav>     
     </footer>  
 
     <script src="script.js"></script>
