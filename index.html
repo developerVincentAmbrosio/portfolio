@@ -8,17 +8,21 @@
   </head>
   
   <body>
-      <header>
-      <h1>Vincent Ambrosio</h1>
+    <header>
+      <div class="group">
+        <div class="item">
+          <h1>Vincent Ambrosio</h1>
+        </div>  
         <nav>
-          <ul class="group">
+          <ul>
             <li class="item"><a href="#intro">Introduction</a></li>
             <li class="item"><a href="#projects">Projects</a></li>
-            <li class="item"><a href="#about">About Me</a></li>
-            <li class="item"><a href="#contact">Contact Me</a></li>
+            <li class="item"><a href="#about">About</a></li>
+            <li class="item"><a href="#contact">Contact</a></li>
           </ul>    
-        </nav> 
-      </header>
+        </nav>         
+      </div> <!--group--> 
+    </header>
 
     <article>
       <div class="group">
@@ -62,7 +66,7 @@
     </section>
       
     <section>
-    <h3 id="about">About Me</h3>
+    <h3 id="about">About</h3>
       <div class="group">
         <div class="item">
           <p>As the world wide web continues to evolve, I want to help ensure this technology remains relevent to all stake holders: businesses, people and last of all, our planet. My ideal work environment is one where people bring their passion for "gettin' it done" to work everyday, just like I do.</p>
@@ -83,26 +87,30 @@
             <input id="user-email" type="text" name="email" required>
             <label for="form-message">Message:</label>
             <textarea id="form-message" name="message" maxlength="500" required></textarea>
-            <input type="submit" value="Send">
+            <button type="submit">Send</button>
           </form>
         </div>
         <div class="item screenedBackground">
-          <p><a href="mailto:vince.ambrosio@gmail.com">email</a></p>
-          <p><a href="https://github.com/developerVincentAmbrosio">GitHub</a></p>
-          <p><a href="https://www.linkedin.com/in/vince-ambrosio-6093458/">LinkedIn</a></p>
+          <ul>
+            <li><a href="mailto:vince.ambrosio@gmail.com">email</a></li>
+            <li><a href="https://github.com/developerVincentAmbrosio">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/vince-ambrosio-6093458/">LinkedIn</a></li>
+          </ul>
         </div>
       </div> <!--group--> 
     </section>
     <!--  <p>Please reach out and let me know how I can help.</p> -->        
     <footer>
-      <nav>
-        <div class="group">
-          <div class="item"><a href="#intro">Introduction</a></div>
-          <div class="item"><a href="#projects">Projects</a></div>
-          <div class="item"><a href="#about">About Me</a></div>
-          <div class="item"><a href="#contact">Contact Me</a></div>
-        </div>    
-      </nav>     
+      <div class="group">
+        <nav>
+          <ul>
+            <li class="item"><a href="#intro">Introduction</a></li>
+            <li class="item"><a href="#projects">Projects</a></li>
+            <li class="item"><a href="#about">About</a></li>
+            <li class="item"><a href="#contact">Contact</a></li>
+          </ul>    
+        </nav>
+      </div>    
     </footer>  
 
     <script src="script.js"></script>
